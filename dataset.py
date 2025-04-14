@@ -7,6 +7,7 @@ import torchvision.transforms.functional as F
 import numpy as np
 import cv2
 
+#for preprocessing data
 
 class RandomCrop(object):
     def __init__(self, size, padding=0, pad_if_needed=False):
